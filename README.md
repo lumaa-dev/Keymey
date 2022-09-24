@@ -1,7 +1,7 @@
 # Keymey - Discord bot  
 This is my first Discord bot ever, **Keymey**.
 
-A multi-purpose Discord bot originally made because of challenge, back in April 2021. Currently being entirely written for the 3rd time.
+A multi-purpose Discord bot originally made because of a challenge, back in April 2021. Currently being entirely written for the 3rd time.
 
 <!--
 
