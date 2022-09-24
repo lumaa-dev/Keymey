@@ -178,8 +178,8 @@ module.exports = {
 			console.log("Initialized all commands");
 			message.react({
 				animated: false,
-				id: "973972321436065802",
-				name: "check",
+				id: "902286320536289281",
+				name: "atada",
 			});
 		} else if (
 			message.author.id === config.ownerId &&
