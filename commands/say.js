@@ -49,6 +49,7 @@ module.exports = {
                 .setTitle(`${anonymous ? "Anonymous" : interaction.user.tag} says...`)
                 .setDescription(input.replace(regexs().urls, "[Website]"))
                 .setTimestamp()
+                .setColor("Random")
                 
                 await textChannel.send({ embeds: [embed] })
                 await interaction.deleteReply()
