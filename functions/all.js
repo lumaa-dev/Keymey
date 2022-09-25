@@ -7,5 +7,6 @@ module.exports = {
 	Users: require("./js/users"),
 	Other: require("./js/other"),
 
-	Info: require("./info")
+	Info: require("./info"),
+	ModalCreator: require("./modalCreator"),
 };
