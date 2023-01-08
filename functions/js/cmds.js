@@ -130,7 +130,7 @@ module.exports = {
 	 * @param {Discord.Message} message
 	 * @param {Boolean} hasCustomData If the command file(s) has the customData object
 	 */
-	 async initiate(client, message, hasCustomData = true) {
+	async initiate(client, message, hasCustomData = true) {
 		checkConfig();
 		if (!client.hasContent) throw new Error("Cannot deploy because the bot cannot receive message contents")
 		if (
